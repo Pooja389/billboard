@@ -3,7 +3,10 @@ A code that makes a playlist in spotify of desired date  by scraping from billbo
 # Billboard Top 20 Playlist Creator
 
 This Python project scrapes the **Top 20 Billboard songs** for a user-specified date and creates a private playlist on Spotify with those songs.
-
+## clone the repository
+```bash
+git clone https://github.com/Pooja389/billboard.git
+```
 ## Requirements
 
 To run this project, you need the following Python packages:
