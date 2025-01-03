@@ -14,7 +14,10 @@ To run this project, you need the following Python packages:
 You can install these packages using pip:
 
 ```bash
-pip install selenium spotipy
+pip install spotipy
+```
+```bash
+pip install selenium
 ```
 ##  Spotify API Setup:
 
