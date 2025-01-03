@@ -10,7 +10,7 @@ client_secret = "client_secret"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope,client_id=client_id,
                                                client_secret=client_secret,redirect_uri="http://localhost:7000/callback",
-                                               username="Poojasaini",cache_path="tok.text",show_dialog=True))
+                                               username="your_usernsme",cache_path="tok.text",show_dialog=True))
 user_id = sp.current_user()["id"]
 
 date = input("in which date you want to go to (yyyy-mm-dd):")
